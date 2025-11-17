@@ -1,11 +1,16 @@
 /* FetchData.css */
-
+body{
+    background-color: rgb(50, 49, 49);
+    color: white;
+}
 .list_data_main {
     list-style: none;
     padding: 0;
+    background-color: rgb(70, 69, 69);
   }
   .usefetch_heading{
     text-align: center;
+    color: aquamarine;
   }
  .list_data {
     margin-bottom: 20px;
@@ -16,6 +21,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: rgba(195, 252, 233, 0.818);
   }
   
   .list_data h3 {
@@ -25,5 +31,12 @@
   
   .list_data p {
     margin: 5px 0;
+  }
+  .images{
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    margin-top: 5px;
   }
   
